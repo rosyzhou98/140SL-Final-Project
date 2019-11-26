@@ -54,3 +54,4 @@ purchase %>% group_by(event_name) %>%
 ga %>% group_by(attraction_id) %>% count(sort = TRUE)
 
 doooooooo
+1111111111111111111111111111111111111
