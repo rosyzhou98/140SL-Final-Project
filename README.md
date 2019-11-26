@@ -5,6 +5,10 @@ load("purchase.RData")
 
 View(purchase)
 
+
+fsggfsdg
+shshsrgrs
+
 load("ga.RData")
 
 View(ga)
