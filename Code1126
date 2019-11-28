@@ -1,1 +1,111 @@
-Hello!
+---
+title: Pricing Strategies for Ticketmaster
+author:
+  - name: Rosy Zhou
+    affil: 1
+  - name: Cindy Zheng 
+    affil: 1
+  - name: Jiayun Luo
+    affil: 1
+  - name: Samuel Chen
+    affil: 1
+  - name: Mengtong Pan
+    affil: 1
+  - name: Yi Lin Ye
+    affil: 1
+team:
+  - num: 1
+    team name: A Clear Tendency to Significance (P=0.052)
+# - num: 2
+#   address: Some other affiliation
+column_numbers: 3
+font_family: Helvetica
+primary_colour: "#2774AE"
+secondary_colour: "#FFD100"
+accent_colour: "#003B5C"
+affiliation_textcol: "#FFD100"
+logoright_name: https&#58;//d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2018/12/24160114/LOSDOS1-768x576.png
+logoleft_name: http&#58;//s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2019/08/Screenshot-2019-08-16-at-10.55.44.png
+
+output: 
+  posterdown::posterdown_html:
+    self_contained: false
+bibliography: packages.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+  Ticketmaster Entertainment, Inc. is an American ticket sales and distribution company. Ticketmastser's current touring tickets is at a fixed rate. Our purpose of the study is to evaluate the effects of geographic locations, event types and tickets purchase time on popularity of event tickets. Therefore we can propose price optimization recommendation based on popularity of event tickets.
+
+# Methods
+
+  1. We first plot top 3 events with the most event tickets according to their purchase location. 
+  
+  2. We testify the relationship between popular purchase location and local average residence income (outside sources).
+  
+  3. We conducted linear regression to examine the relationship between time difference and total number of tickets sold for all events in the purchase data. Time difference is the amount of time between the date of event and the date of transcation happened.
+  
+# Results
+
+  Since customers of ticketmaster are across the United States, we think of tickets pricing based on geographical locations. People who live in states have higher average income would probably tend to spend more on entertainment such as concerts, sports games, and arts exhibitions than those who has lower average income. The purchase data from ticketmaster provides us transaction records and venue cities of all events. We use dplyr package to extract the information of most popular events to illustrate the effect of location. The most popular events are "Beyonce - the formation world tour", "Dave Matthews Band" and "Coldplay- A Head Full Of Dreams Tour." 
+  
+  
+##Graphs
+
+```{r}
+
+#graph 1
+
+
+
+```
+
+Graph 1 indicates that ...
+
+```{r}
+
+
+#graph 2
+
+
+```
+Graph 2 has ...
+
+```{r}
+
+#graph 3
+
+
+
+```
+
+Graph 3 shows that ...
+
+
+## Regression Analysis
+
+  In the purchase data set, we also have information of customers' transaction time and the events date, so we are wondering whether customers have some pattern of purchase so that we can trace and price them differently with respect with their purchasing date. We eliminate purchase data categorized as parking tickets because our main focus of the study is to price the events tickets, not the complementary tickets. We build a new variable called scaled date difference. Total tickets sold for each event is response variable. 
+
+```{r}
+#Regression summary result here
+#reg_time<- lm(purchase_regress$total_tickets_purchased ~ purchase_regress$scaled_date_diff_median)
+#summary(reg_time)
+knitr::include_graphics("140SL_Regression.png")
+knitr::include_graphics("140SL_Regression_Assumptions.png")
+```
+
+  The summary of regression model shows that the time difference is significantly associated with total amount of tickets purchase. The higher time difference would lead to greater amount of tickets sold. Higher time difference means longer time gap between date of tickets purchased and event date. We also check the assumptions of linear model and seems mostly the assumptions are verified. 
+  
+
+
+# Next Steps
+
+
+# Conclusion
+
+
+# References
