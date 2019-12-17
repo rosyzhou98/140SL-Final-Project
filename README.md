@@ -1,5 +1,5 @@
 #Ticketmaster Ticket Pricing Strategies
-  All of the data presented are web-based statistics. While the files look quite different from each other, the data are generated through the same process. When you visit a website and the website loads, several javascript scripts are run during the loading process. This collect of scripts (referred to internally as a pixel) records the user's actions on the website and sends the resulting data to an external database. 
+##  All of the data presented are web-based statistics. While the files look quite different from each other, the data are generated through the same process. When you visit a website and the website loads, several javascript scripts are run during the loading process. This collect of scripts (referred to internally as a pixel) records the user's actions on the website and sends the resulting data to an external database. 
  
 Description of the Dataset
   Purchase Data
