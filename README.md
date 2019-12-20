@@ -11,7 +11,9 @@
 
 ### Recommendations
 
-We found that income and population of a state are important factors that are relevant to the total tickets sold and should be considered when constructing a pricing optimization model. Several states, such as California and New York, generally sell better than the other states, and raising ticket prices in these states could potentially bring up revenue. Moreover, tickets sold more close to the event date, suggesting another potential price optimization factor.
+* We found that income and population of a state are important factors that are relevant to the total tickets sold and should be considered when constructing a pricing optimization model. Several states, such as California and New York, generally sell better than the other states, and raising ticket prices in these states could potentially bring up revenue.
+
+* Moreover, more popular events' tickets sold as the event dates approached, suggesting another potential price optimization factor.
 
 
 ### Contributors
