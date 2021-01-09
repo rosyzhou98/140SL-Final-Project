@@ -1,6 +1,8 @@
 # Ticketmaster Ticket Pricing Strategies
 
-* Ticket pricing is a topic that is largely unexplored at Ticketmaster because it is generally not the one to set the price. The Data Science Division at Ticketmaster is very interested in insights into how to price tickets. Currently the ticket prices for a touring artist are roughly the same at every performance location, i.e. there is little to no optimization done on pricing tickets based on location. Ticketmaster is very interested in determining the popularity of certain geographic locations for certain types of events and for certain types of people so that it can use this information for ticket price optimization. In order to provide pricing strategies, we studied three factors that affected the amount of ticket sold: geological location of tickets sold, population density of where tickets sold, and time difference between the event date and date of tickets sold.
+* Ticket pricing is a topic that is largely unexplored at Ticketmaster because it is generally not the one to set the price. The Data Science Division at Ticketmaster is very interested in insights into how to price tickets. Currently the ticket prices for a touring artist are roughly the same at every performance location, i.e. there is little to no optimization done on pricing tickets based on location. Ticketmaster is very interested in determining the popularity of certain geographic locations for certain types of events and for certain types of people so that it can use this information for ticket price optimization.
+
+In order to provide pricing strategies, we studied three factors that affected the amount of ticket sold: geological location of tickets sold, population density of where tickets sold, and time difference between the event date and date of tickets sold.
  
 ### See Demo
 https://rosyzhou98.github.io/140SL-Ticketmaster/140SL_Final_Poster_V1.html
